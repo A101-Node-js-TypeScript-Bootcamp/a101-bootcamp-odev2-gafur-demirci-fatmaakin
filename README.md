@@ -14,18 +14,16 @@ The node.js packages used are listed below. You can find the documentation links
 
 **Server:** Node, Express
 
-**Packages:** Axios, Express, Express-jwt, Joi, Jsonwebtoken, Nodemon    
+**Packages:** Axios, Express, Express-jwt, Jsonwebtoken, Jwt-decode, Nodemon    
 
 
-
-
-  ## Getting Started
+## Getting Started
 The easiest way to get started is to clone the repository:
 
 #### Get The Latest Snapshot
 
 ```bash
-  git clone https://github.com/sahat/hackathon-starter.git myproject
+  git clone https://github.com/A101-Node-js-TypeScript-Bootcamp/a101-bootcamp-odev2-gafur-demirci-fatmaakin.git
 ```
 
 #### Change directory
@@ -49,65 +47,33 @@ The easiest way to get started is to clone the repository:
 ### Directory Structure
 
 ```txt
-    +---build
-    +---client
-    |   +---app
-    |   |   +---core
-    |   |   +---modules
-    |   |       +---demo
-    |   |       +---devices
-    |   |       +---home
-    |   |       +---posts
-    |   |       +---session
-    |   |                   
-    |   +---frontend
-    |   +---images
-    |   +---scss
-    |                   
-    +---data
-    +---logs
-    +---server
-    |   |   bundle.js
-    |   |   dev.js
-    |   |   index.js
-    |   +---applogic
-    |   |   +---libs
-    |   |   +---modules
-    |   |       +---counter
-    |   |       +---devices
-    |   |       +---posts
-    |   |       +---session
-    |   +---config
-    |   |       default.js
-    |   |       index.js
-    |   |       prod.js
-    |   |       test.js
-    |   |       
-    |   +---core
-    |   +---libs
-    |   +---locales
-    |   |   +---en
-    |   |   +---hu
-    |   +---models
+    +---controllers
+    |   |   brand.js
+    |   |   user.js
+    +---helpers
+    |   |   error-handler.js
+    |   |   jwt.js
+    +---routes
+    |   +---brand
+    |   |       brand.js
+    |   +---user
     |   |       user.js
-    |   +---public
-    |   +---routes
-    |   +---schema
-    |   +---services
-    |   +---views
-    +---tests
-    |
+    |   |   api.js
+    +---services
+    |   |   brand.js
+    |   app.js
     |   package.json
-    |   secrets.json
+    |   package-lock.json
+    
 ```
 
-
-## Yazarlar ve Teşekkür
+## Authors and Acknowledgments
 
 - [@fatmakin](https://github.com/fatmakin)
 - [@gafur-demirci](https://github.com/gafur-demirci)
-## Geri Bildirim
 
-Herhangi bir geri bildiriminiz varsa, lütfen  adresinden bize ulaşın.
+## Feedback
+
+If you have any feedback, please contact us at [mailto:fatmakin](fatmakin.fa@gmail.com) or [mailto:gafur-demirci](gafur.gs.68@gmail.com).
 
   
