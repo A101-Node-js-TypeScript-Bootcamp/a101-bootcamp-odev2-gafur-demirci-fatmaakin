@@ -49,65 +49,33 @@ The easiest way to get started is to clone the repository:
 ### Directory Structure
 
 ```txt
-    +---build
-    +---client
-    |   +---app
-    |   |   +---core
-    |   |   +---modules
-    |   |       +---demo
-    |   |       +---devices
-    |   |       +---home
-    |   |       +---posts
-    |   |       +---session
-    |   |                   
-    |   +---frontend
-    |   +---images
-    |   +---scss
-    |                   
-    +---data
-    +---logs
-    +---server
-    |   |   bundle.js
-    |   |   dev.js
-    |   |   index.js
-    |   +---applogic
-    |   |   +---libs
-    |   |   +---modules
-    |   |       +---counter
-    |   |       +---devices
-    |   |       +---posts
-    |   |       +---session
-    |   +---config
-    |   |       default.js
-    |   |       index.js
-    |   |       prod.js
-    |   |       test.js
-    |   |       
-    |   +---core
-    |   +---libs
-    |   +---locales
-    |   |   +---en
-    |   |   +---hu
-    |   +---models
+    +---controllers
+    |   |   brand.js
+    |   |   user.js
+    +---helpers
+    |   |   error-handler.js
+    |   |   jwt.js
+    +---routes
+    |   |   api.js
+    |   |   +---brand
+    |   |       brand.js
+    |   |   +---user
     |   |       user.js
-    |   +---public
-    |   +---routes
-    |   +---schema
-    |   +---services
-    |   +---views
-    +---tests
-    |
-    |   package.json
-    |   secrets.json
+    +---services
+    |   |   brand.js
+    app.js
+    package.json
+    package-lock.json
 ```
 
 
-## Yazarlar ve Teşekkür
+## Authors and Acknowledgments
 
 - [@fatmakin](https://github.com/fatmakin)
 - [@gafur-demirci](https://github.com/gafur-demirci)
-## Geri Bildirim
 
-Herhangi bir geri bildiriminiz varsa, lütfen  adresinden bize ulaşın.
+## Feedback
+
+If you have any feedback, please contact us at [@mailto:gafur-demirci](mailto:gafur.gs.68@gmail.com) or [@fatmakin](mailto:fatmakin.fa@gmail.com).
 
   
