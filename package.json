@@ -1,0 +1,21 @@
+{
+  "name": "patica-backend",
+  "version": "1.0.0",
+  "description": "yeniden boilerplate",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "fatma",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "express": "^4.17.2",
+    "express-jwt": "^6.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
